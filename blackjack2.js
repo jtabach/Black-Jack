@@ -666,9 +666,10 @@ var actions = {
 
 (function rules() {
 
-    alert("Welcome to the blackjack table!\nHere are some of the rules:\n" +
-          "You must bet every hand. Minimum bet is 1. Maximum bet is 500.\n" +
-          "Dealer stays on any 17. Aces are worth 11. Black Jack pays even money.");
+    alert("Welcome to the Blackjack table. \n\nMinumum bet is 1" + 
+         "\n\nMaximum bet is 500.\n\nDealer hits on soft seventeen." +
+         "\n\nThere is no splitting.\n\nBlack Jack pays 3/2." +
+         "\n\nGood Luck!");
     actions.play();
     
 }());
